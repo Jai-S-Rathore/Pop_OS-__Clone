@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
         navMenu.classList.toggle('active');
         navToggle.classList.toggle('active');
         
-        // Animate hamburger menu
+        // Animate  menu
         const burgers = navToggle.querySelectorAll('.nav__burger');
         if (navToggle.classList.contains('active')) {
             burgers[0].style.transform = 'rotate(-45deg) translate(-5px, 6px)';
